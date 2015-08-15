@@ -1,0 +1,16 @@
+MAX_HEALTH = 100
+MAX_VELOCITY = 10
+MAX_ACCELERATION = 1
+MAX_ROTATION = 10
+
+GAME_SPEED = 30 # steps per second
+CAMERA_PERSPECTIVE = 60. # field of view of camera in degrees
+SCREEN_WIDTH = 640 # pixels
+SCREEN_HEIGHT = 480 # pixels
+# SCREEN_WIDTH = 1024 # pixels
+# SCREEN_HEIGHT = 768 # pixels
+
+# DISPLAY_BBOXES = True
+DISPLAY_BBOXES = False
+DISPLAY_PLAYER_BBOXES = True
+ROCKETS = False

@@ -1,0 +1,85 @@
+UPDATED TO-DO LIST 05/31/11
+
+Must Do
+
+- Scores/Win Conditions (Ricky)
+	- Client now recieves a game state message when all gates of a team has been destroyed.
+	- This message is displayed on the screen.
+- Restart/Reset Game [countdown and restart] (Ricky)
+	- Restart added to room. 
+	- Game now restarts at the end of the round. 
+- Change Room Design (Ray)
+- Color Gradient Room (TBD)
+- Healing Wells + Effects (Ray) [Effects Done]
+- More Complicated Objects
+- Fix Grapple/Grab (Ricky) 
+	Grapple is now bound to right click. When right click is released, so is the grab and grapple. 
+- Hit Indication (Ray) [needs better graphic and a little bit of work]
+- Fix Particles (Watson) [DONE]
+- HUD Messages (Watson) [DONE-ish]
+	-Done says ricky
+- Limit Mouse Scrolling [DONE], and Laser/Grappling Hook Depth [DONE], and Laser flashing [DONE]
+- Fix the healing well [DONE]
+- More laser fixes [DONE]
+- Puff graphics (Ray)
+
+Want To Do
+- Death Indicator (Adi)
+- Scoreboards/Scorekeeping (Ricky)
+- Player Indicators (Watson/Ray)
+- Bouncy Light (Ray)
+- Load Screen (Adi) [Could fix on_mouse_motion, don’t load until the loading is done! (Ask Ricky)
+- UI Team Indicator/Death/Game State
+- Gate State Indicator (Ricky)
+	-Text indicators thus far
+- Sound FX [gate target point goes down, gate goes down, game over] (Adi) [tigforums.com]
+- Hit scan indication (on hit)
+	- Done, currently expands the reticle on hit
+- Rockets (After EVERYTHING)
+
+
+
+current tasks
+
+  Alex
+    fix graphics bugs (compound objects and memoization)
+
+  David W.
+    finishing touches
+
+  David L.
+    teams, kills, deaths, etc.
+
+  Ray
+    hit indication
+    puffs
+    gate explosions
+    room design
+
+  Ricky
+    model loading
+
+  Adi
+    make max out stop lasers
+    fix edges on laser bar
+    lasers do more damage
+
+
+todo
+
+  collision detection
+  attractor object (physics, gravity)
+  brainstorm all possible uses of particle effects
+
+completed tasks
+
+  key events
+  automatic server shutdown
+  fix window resizing / aspect ratio issues
+  port no-clip movement and mouse look to Movement object
+  fix networking over multiple computers
+    add logic for spawn points and creating players there
+
+wait, this isn't needed:
+  Create parent class for client and server.
+
